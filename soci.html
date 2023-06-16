@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Eco Reus | Fes'te soci/a</title>
+
+        <!-- Font Poppins -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="./css/styles.css" />
+
+        <!-- ICONIFY -->
+        <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="navbar" id="navbar">
+                <div class="navbar__container container">
+                    <div class="navbar__container_menu-icons">
+                        <a href="#navbar" class="navbar__container_menu-mobile">
+                            <span
+                                class="iconify"
+                                data-icon="material-symbols:menu"
+                            ></span>
+                        </a>
+                        <a href="#" class="navbar__container_menu-mobile-close">
+                            <span class="iconify" data-icon="mdi:close"></span>
+                        </a>
+                    </div>
+                    <div class="navbar__container_logo">
+                        <img src="./images/logotip.svg" alt="Logo Eco Reus" />
+                    </div>
+                    <div class="navbar__container_menu">
+                        <ul>
+                            <li><a href="index.html">Inici</a></li>
+                            <li><a href="./cooperativa.html">Coneixe'ns</a></li>
+                            <li><a href="./botiga.html">La Botiga</a></li>
+                            <li><a href="./soci.html">Fes-te soci/a</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contacte</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar__container_cart">
+                        <span
+                            class="iconify"
+                            data-icon="material-symbols:shopping-cart-outline-rounded"
+                        ></span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main" id="main">
+            <section class="soci section">
+                <div class="soci__container container">
+                    <div class="soci__info">
+                        <div class="soci__info_content">
+                            <h2 class="section-title soci__info_content--title">
+                                Ja saps per què és interessant fer-te soci?
+                            </h2>
+                            <p>
+                                Fes-te soci ara mateix i gaudeix dels avantatges
+                                que t’ofereix la nostra cooperativa on podràs
+                                encarregar les nostres cistelles ecològiques.
+                            </p>
+                            <div class="soci__info_content-requirements">
+                                <span
+                                    class="soci__info_content-requirements__title"
+                                    >Requisits</span
+                                >
+                                <ul
+                                    class="soci__info_content-requirements__list"
+                                >
+                                    <li>Pertànyer al barri</li>
+                                    <li>Quota mensual de 60€</li>
+                                    <li>
+                                        Participació en la cooperativa mínim 1
+                                        dia al mes durant 4 hores
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="soci__info_image">
+                            <img
+                                src="./images/illustration-4.png"
+                                alt="Il·lustració persona cuinant vegetals"
+                            />
+                        </div>
+                    </div>
+                    <div class="soci__form">
+                        <form action="#" class="form">
+                            <fieldset class="form__fieldset">
+                                <legend class="form__fieldset-title">
+                                    <span>Dades personals</span>
+                                </legend>
+                                <div class="form__fieldset-data">
+                                    <div class="form__fieldset-data--column">
+                                        <label for="Name"
+                                            >Nom complet
+                                            <input
+                                                type="text"
+                                                name="name"
+                                                id="Name"
+                                        /></label>
+                                        <label for="nif"
+                                            >NIF / NIE
+                                            <input
+                                                type="text"
+                                                name="nif"
+                                                id="nif"
+                                        /></label>
+                                        <label for="adress"
+                                            >Adreça
+                                            <input
+                                                type="text"
+                                                name="adress"
+                                                id="adress"
+                                        /></label>
+                                        <label for="postal"
+                                            >Codi Postal
+                                            <input
+                                                type="number"
+                                                name="postal"
+                                                id="postal"
+                                        /></label>
+                                    </div>
+                                    <div class="form__fieldset-data--column">
+                                        <label for="city"
+                                            >Població
+                                            <input
+                                                type="text"
+                                                name="city"
+                                                id="city"
+                                        /></label>
+                                        <label for="email"
+                                            >Correu electrònic
+                                            <input
+                                                type="email"
+                                                name="email"
+                                                id="email"
+                                        /></label>
+                                        <label for="phone"
+                                            >Telèfon
+                                            <input
+                                                type="number"
+                                                name="phone"
+                                                id="phone"
+                                        /></label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset class="form__fieldset">
+                                <legend class="form__fieldset-title">
+                                    <span
+                                        >Quina és la teva disponibilitat
+                                        horària?</span
+                                    >
+                                </legend>
+                                <div class="form__fieldset-availability">
+                                    <label for="day"
+                                        ><input
+                                            type="radio"
+                                            id="day"
+                                            name="availability"
+                                            class="input-radio"
+                                        />
+                                        Diària</label
+                                    >
+                                    <label for="week"
+                                        ><input
+                                            type="radio"
+                                            id="week"
+                                            name="availability"
+                                            class="input-radio"
+                                        />
+                                        Setmanal</label
+                                    >
+                                    <label for="month"
+                                        ><input
+                                            type="radio"
+                                            id="month"
+                                            name="availability"
+                                            class="input-radio"
+                                        />
+                                        Mensual</label
+                                    >
+                                </div>
+                            </fieldset>
+                            <fieldset class="form__fieldset">
+                                <legend class="form__fieldset-title">
+                                    Dubtes i/o suggeriments:
+                                </legend>
+                                <div class="form__fieldset-comments">
+                                    <textarea
+                                        name="comments"
+                                        id="comments"
+                                        rows="5"
+                                    ></textarea>
+                                </div>
+                            </fieldset>
+                            <div class="form__btn">
+                                <button class="btn">
+                                    Enviar
+                                    <span
+                                        class="iconify"
+                                        data-icon="material-symbols:arrow-forward"
+                                    ></span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer" id="footer">
+            <section class="section">
+                <div class="footer__container container">
+                    <div class="footer__logo">
+                        <img
+                            src="./images/logotip1.svg"
+                            alt="Imatge logotip ECO REUS"
+                        />
+                    </div>
+                    <div class="footer__navbar">
+                        <ul class="footer__navbar-links">
+                            <li class="footer__navbar-links_links">
+                                <a href="#">Inici</a>
+                            </li>
+                            <li class="footer__navbar-links_links">
+                                <a href="#">Coneixe'ns</a>
+                            </li>
+                            <li class="footer__navbar-links_links">
+                                <a href="#">La Botiga</a>
+                            </li>
+                            <li class="footer__navbar-links_links">
+                                <a href="#">Fes-te soci</a>
+                            </li>
+                            <li class="footer__navbar-links_links">
+                                <a href="#">Blog</a>
+                            </li>
+                            <li class="footer__navbar-links_links">
+                                <a href="#">Contacte</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__social">
+                        <p class="footer__social-text">Segueix-nos:</p>
+                        <div class="footer__social-icons">
+                            <span
+                                class="iconify"
+                                data-icon="mdi:instagram"
+                            ></span>
+                            <span
+                                class="iconify"
+                                data-icon="mdi:twitter"
+                            ></span>
+                            <span
+                                class="iconify"
+                                data-icon="ic:baseline-facebook"
+                            ></span>
+                        </div>
+                    </div>
+                    <p class="footer__info">
+                        lorem ipsum dolor sit amet consectetur. Tincidunt diam
+                        fermentum vestibulum leo eget lobortis odio. Sit in
+                        lacus felis vel est. Congue diam condimentum lacinia
+                        ante turpis dolor.
+                    </p>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>
