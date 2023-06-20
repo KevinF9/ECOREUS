@@ -90,7 +90,6 @@ img {
     background-color: var(--color-secondary);
     color: var(--color-primary);
     cursor: pointer;
-
     display: flex;
     align-items: center;
     gap: 0.25rem;
